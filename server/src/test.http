@@ -15,3 +15,11 @@ Content-Type: application/json
   "username": "test",
   "password": "111111"
 }
+
+###
+PUT http://localhost:5000/api/todos/status
+Content-Type: application/json
+
+{
+  "todoId": "5eb7aa8fa949b7304039d6fa"
+}

@@ -57,7 +57,7 @@ todoRouter
       })
     }
   })
-  .post('/status', async (ctx: Context) => {
+  .put('/status', async (ctx: Context) => {
     const payload = ctx.request.body as IPayload
     const { todoId } = payload
     try {
